@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Heebo";
+    color:rgba(33, 36, 61, 1);
+}
+h1{
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 120%;
+}
+.wrapper{
+    width: 856px;
+    margin: 0 auto;
+}
+.clearfix{
+    clear: both;
+}
+/*Меню*/
+.first_menu{
+    margin: 27px 0px;
+}
+.first_menu ul{
+    float: right;
+    list-style: none;
+    margin-right: 60px;
+}
+.first_menu ul li{
+    float: left;
+    margin-left: 34px;
+}
+.first_menu ul li:first-of-type {
+    margin-left: 0;
+}
+
+.first_menu a{
+    color: black;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+}
+/*ща контент будет*/
+.first_content{
+    margin-top: 127px;
+    margin-bottom: 71px;
+}
+.first_left{
+    float: left;
+    width: calc(100% - 243px);
+    padding-right: 115px;
+}
+.first_right{
+    float: right;
+    width: 243px;
+}
+
+.first_image img{
+    max-width: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.first_left p{
+    margin-top: 40px;
+}
+.first_left .button{
+    margin-top: 38px;
+}
+
+/*Кнопка*/
+.button {
+    display: inline-block;
+    border: none;
+    text-decoration: none;
+    background-color: #FF6464;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 20px;
+    line-height: 47px;
+
+}
