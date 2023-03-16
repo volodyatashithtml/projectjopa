@@ -273,6 +273,16 @@ h1{
 .border1{
     border: 1px solid #E0E0E0;
 }
+@media (max-width: 700px) {
+    .image3,
+    .third_content{
+        float: none;
+    }
+    .block1_1{
+        width: 100%;
+    }
+    
+}
 /*Наталья 4 блок стартуем*/
 .photo{
     margin-top: 83px;
