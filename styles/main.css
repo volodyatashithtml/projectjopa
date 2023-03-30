@@ -32,6 +32,9 @@ h1{
 .first_menu{
     margin: 27px 0px;
 }
+.first_menu a:hover{
+    color: red;
+}
 .first_menu ul{
     float: right;
     list-style: none;
@@ -306,3 +309,25 @@ h1{
     padding-left: 353px;
     padding-bottom: 54px;
 }
+
+.blog h1{
+    margin-top: 106px;
+
+}
+.blog .wrapper{
+    width: 681px;
+}
+
+.blog .block {
+    float: none;
+    width: 100%;
+    padding: 0;
+    border-bottom: 1px solid rgb(162, 162, 162);
+}
+.blog .block h2{
+    padding-left: 0px;
+}
+.blog .block p{
+    padding-left: 0px;
+}
+/**/
