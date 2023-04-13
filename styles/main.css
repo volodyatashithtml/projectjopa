@@ -369,3 +369,50 @@ h1{
 .works .block1_1{
     margin-top: 50px;
 }
+
+/* теперь ебашим ссылку на работу */
+
+.design .third_content, .image3{
+    float: none;
+}
+.design .wrapper{
+    width: 100%;
+    max-width: 681px;
+}
+.design .work_year{
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+.design .third_content{
+    width: 100%;
+    padding-left: 0;
+    margin-bottom: 25px;
+}
+.design .text3_3{
+    margin-bottom: 30px;
+}
+.design .image3{
+    width: 100%;
+}
+.design h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.design .photo{
+    margin-top: 20px;
+}
+.design .text3_1{
+    background: rgb(255, 124, 124);
+}
+
+@media (max-width: 576px) {
+    .design .wrapper{
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+    .design h1{
+        font-size: 30px;
+    }
+
+    
+}
