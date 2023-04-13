@@ -290,24 +290,21 @@ h1{
 .photo{
     margin-top: 83px;
     margin-bottom: 26px;
+    text-align: center;
 }
-.image4_1{
-    float: left;
-    padding-left: 313px;
-    margin-left: 35px;
-    padding-bottom: 26px;
+.photo a{
+    text-decoration: none;
+    padding-right: 35px;
 }
-.image4_2{
-    float: left;
-    margin-left: 35px;   
+.photo a:last-of-type{
+    padding-right: 0;
 }
 .footer{
+    text-align: center;
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
     color: #21243D;
-    padding-left: 353px;
-    padding-bottom: 54px;
 }
 
 .blog h1{
@@ -315,7 +312,8 @@ h1{
 
 }
 .blog .wrapper{
-    width: 681px;
+    width: calc(100% - 30px);
+    max-width: 681px;
 }
 
 .blog .block {
@@ -329,5 +327,10 @@ h1{
 }
 .blog .block p{
     padding-left: 0px;
+}
+@media (max-width: 700px) {
+    .blog .block{
+        width: 100%;
+    }
 }
 /**/
